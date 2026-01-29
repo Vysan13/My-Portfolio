@@ -17,6 +17,17 @@ const sampleProjects = [
     desc: '2D fireworks simulation with interactive mouse and keyboard controls; includes a custom vector struct and physics-based particle system.',
     tech: 'MonoGame, C#, .NET, Visual Studio, Vector Math, Game Physics'
   }
+  ,
+  {
+    title: 'Hair Salon Management Platform',
+    desc: 'Full-stack appointment scheduling platform with user management, reporting, dynamic time slots and admin controls. Containerized for easy deployment.',
+    tech: 'Flask, Python, REST APIs, PostgreSQL, Docker'
+  },
+  {
+    title: 'Restaurant Calendar',
+    desc: 'Restaurant reservation and staff management system with booking rules, fees, VIP handling, input validation and automated unit tests.',
+    tech: 'C#, .NET, Unit Testing, Visual Studio'
+  }
 ]
 
 export default function Projects() {
