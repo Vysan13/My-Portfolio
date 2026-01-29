@@ -5,10 +5,10 @@ export default function Header() {
     <header className="header">
       <div className="container">
         <nav className="top-nav">
-          <a href="#home">Home</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#contributions">Contributions</a>
+          <a href="#home" data-label="Home">Home</a>
+          <a href="#experience" data-label="Experience">Experience</a>
+          <a href="#projects" data-label="Projects">Projects</a>
+          <a href="#contact" data-label="Contact">Contact</a>
         </nav>
       </div>
     </header>

@@ -1,32 +1,38 @@
 import React, { useRef } from 'react'
+import Skills from './Skills'
 
 const sampleProjects = [
   {
     title: 'Book Reader App',
     desc: 'Developed an Android app supporting downloads, full-text search, Text-to-Speech and adaptive UI.',
-    tech: 'Kotlin, JUnit, MVVM, Google TTS, Jetpack Compose, SQL, Android Studio, GitLab'
+    tech: 'Kotlin, JUnit, MVVM, Google TTS, Jetpack Compose, SQL, Android Studio, GitLab',
+    repo: 'https://gitlab.com/dawson-cst-cohort-2026/520/section3/teams/teamperavythomas/520-project-san-nicholls-koleboshyna'
   },
   {
     title: 'Space Discoveries Site',
     desc: 'Built a full-stack web app to search, filter with pagination and visualize large datasets of exoplanets and satellites.',
-    tech: 'React, Express, Node.js, REST APIs, MongoDB, VS Code'
+    tech: 'React, Express, Node.js, REST APIs, MongoDB, VS Code',
+    repo: 'https://gitlab.com/dawson-cst-cohort-2026/511/section3/Vy-Desiree-Ritik/mobile-dev-project'
   }
   ,
   {
     title: 'Fireworks Display',
     desc: '2D fireworks simulation with interactive mouse and keyboard controls; includes a custom vector struct and physics-based particle system.',
-    tech: 'MonoGame, C#, .NET, Visual Studio, Vector Math, Game Physics'
+    tech: 'MonoGame, C#, .NET, Visual Studio, Vector Math, Game Physics',
+    repo: 'https://gitlab.com/dawson-cst-cohort-2026/510/section3/san/fireworks'
   }
   ,
   {
     title: 'Hair Salon Management Platform',
     desc: 'Full-stack appointment scheduling platform with user management, reporting, dynamic time slots and admin controls. Containerized for easy deployment.',
-    tech: 'Flask, Python, REST APIs, PostgreSQL, Docker'
+    tech: 'Flask, Python, REST APIs, PostgreSQL, Docker',
+    repo: 'https://gitlab.com/Jam14t/prg-grp3-adeshina/-/tree/develop?ref_type=heads'
   },
   {
     title: 'Restaurant Calendar',
     desc: 'Restaurant reservation and staff management system with booking rules, fees, VIP handling, input validation and automated unit tests.',
-    tech: 'C#, .NET, Unit Testing, Visual Studio'
+    tech: 'C#, .NET, Unit Testing, Visual Studio',
+    repo: 'https://gitlab.com/dawson-cst-cohort-2026/410/section3/vyjamiatdorian/resto_calendar/-/tree/develop/RestoCalendar?ref_type=heads'
   }
 ]
 
@@ -53,11 +59,20 @@ export default function Projects() {
               <h3>{p.title}</h3>
               <p>{p.desc}</p>
               <small>{p.tech}</small>
+              {p.repo && (
+                <p className="project-repo"> 
+                  <a className="repo-link" href={p.repo} target="_blank" rel="noopener noreferrer">Repository →</a>
+                </p>
+              )}
             </article>
           ))}
         </div>
 
         <button className="slider-btn right" onClick={() => scroll('right')} aria-label="Scroll right">›</button>
+      </div>
+
+      <div className="container">
+        <Skills />
       </div>
     </section>
   )

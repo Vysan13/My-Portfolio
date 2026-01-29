@@ -1,5 +1,4 @@
 import React from 'react'
-import Skills from './Skills'
 
 export default function About() {
   return (
@@ -7,18 +6,11 @@ export default function About() {
       <div className="container">
         <div className="about-left">
           <h1 className="about-name">Vy San</h1>
-          <p className="about-subtitle">A Fullstack Developer</p>
+          <p className="about-subtitle">A Passionate Developer</p>
           <p className="about-desc">
-            Passionate about constantly creating and learning new things, Open Source enthusiast,
-            and committed to contribute to the community with a minimalist mindset. I'm looking
-            to apply my skills in full-stack web development, backend systems and containerized
-            deployments.
+            Computer Science student at Dawson College seeking a full-time internship (minimum 7 weeks) starting from 13th April. Eager to apply skills in software development, web technologies, backend systems and cloud infrastructure in a dynamic tech environment.
           </p>
         </div>
-      </div>
-
-      <div className="container">
-        <Skills />
       </div>
     </section>
   )
