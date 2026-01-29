@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <section id="about" className="section">
-      <h2>About Me Vy</h2>
+      <h2>About Me</h2>
       <p>
         I'm a Computer Science student at Dawson College seeking 
         a full-time internship (minimum 7 weeks) starting from 13th April. 
@@ -22,8 +22,10 @@ export default function About() {
           <li>.NET</li>
           <li>PostgreSQL</li>
           <li>Docker</li>
-          <li>GitLab & GitLab CI</li>
-          <li>VS Code / Visual Studio</li>
+          <li>GitLab</li>
+          <li>GitLab CI</li>
+          <li>VS Code </li>
+          <li>Visual Studio</li>
           <li>JUnit</li>
           <li>MonoGame</li>
           <li>Entity Framework</li>
@@ -37,7 +39,8 @@ export default function About() {
           <li>SQL</li>
           <li>Kotlin</li>
           <li>JavaScript</li>
-          <li>HTML & CSS</li>
+          <li>HTML</li>
+          <li>CSS</li>
         </ul>
 
         <h4>Other Tools</h4>

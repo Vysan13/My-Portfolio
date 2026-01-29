@@ -22,3 +22,18 @@ body{font-family:Inter,Segoe UI,Arial,Helvetica,sans-serif;margin:0;background:l
 a{color:var(--accent)}
 
 @media(min-width:760px){.header{display:flex;align-items:center;justify-content:space-between}.header .inner{width:100%}}
+
+/* Projects slider styles */
+.projects-slider-wrapper{position:relative;display:flex;align-items:center;margin-top:12px}
+.projects-slider{display:flex;gap:12px;overflow-x:auto;padding:8px 6px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.projects-slider::-webkit-scrollbar{height:8px}
+.projects-slider::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.06);border-radius:8px}
+.slide-item{min-width:260px;flex:0 0 auto;scroll-snap-align:center}
+.slider-btn{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.03);color:var(--text);padding:8px 10px;border-radius:6px;cursor:pointer;margin:0 8px}
+.slider-btn.left{margin-left:0}
+.slider-btn.right{margin-right:0}
+
+@media(max-width:520px){
+  .slide-item{min-width:80%;}
+  .slider-btn{padding:6px 8px}
+}
