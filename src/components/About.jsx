@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <section id="about" className="section">
-      <h2>About Me</h2>
+      <h2>About Me Vy</h2>
       <p>
         I'm a Computer Science student at Dawson College seeking 
         a full-time internship (minimum 7 weeks) starting from 13th April. 
