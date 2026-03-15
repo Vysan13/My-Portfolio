@@ -6,13 +6,13 @@ const sampleProjects = [
     title: 'Book Reader App',
     desc: 'Developed an Android app supporting downloads, full-text search, Text-to-Speech and adaptive UI.',
     tech: 'Kotlin, JUnit, MVVM, Google TTS, Jetpack Compose, SQL, Android Studio, GitLab',
-    repo: 'https://gitlab.com/dawson-cst-cohort-2026/520/section3/teams/teamperavythomas/520-project-san-nicholls-koleboshyna'
+    repo: 'https://gitlab.com/dawson-cst-cohort-2026/511/section3/Vy-Desiree-Ritik/mobile-dev-project'
   },
   {
     title: 'Space Discoveries Site',
     desc: 'Built a full-stack web app to search, filter with pagination and visualize large datasets of exoplanets and satellites.',
     tech: 'React, Express, Node.js, REST APIs, MongoDB, VS Code',
-    repo: 'https://gitlab.com/dawson-cst-cohort-2026/511/section3/Vy-Desiree-Ritik/mobile-dev-project'
+    repo: 'https://gitlab.com/dawson-cst-cohort-2026/520/section3/teams/teamperavythomas/520-project-san-nicholls-koleboshyna'
   }
   ,
   {
@@ -48,7 +48,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="section">
-      <h2>Projects</h2>
+      <h2>Computer Science Projects</h2>
 
       <div className="projects-slider-wrapper">
         <button className="slider-btn left" onClick={() => scroll('left')} aria-label="Scroll left">‹</button>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   const base = import.meta.env.BASE_URL || '/'
-  const resumeFile = 'CV_VSN.pdf'
+  const resumeFile = 'CV-ENG.pdf'
   const resumeUrl = `${base}${resumeFile}`
 
   async function handleForceDownload() {

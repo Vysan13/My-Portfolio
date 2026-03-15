@@ -6,9 +6,9 @@ export default function About() {
       <div className="container">
         <div className="about-left">
           <h1 className="about-name">Vy San</h1>
-          <p className="about-subtitle">A Passionate Developer</p>
+          <p className="about-subtitle">A Passionate Sports Videographer & Developer</p>
           <p className="about-desc">
-            Computer Science student at Dawson College seeking a full-time internship (minimum 7 weeks) starting from 13th April. Eager to apply skills in software development, web technologies, backend systems and cloud infrastructure in a dynamic tech environment.
+            Computer Science student at Dawson College with a strong passion for sports and media production. Experienced in filming and live streaming varsity soccer and hockey games with a solid understanding of the game and key moments to capture. Combines technical knowledge in software development and networking with hands-on experience in sports videography. Always motivated to contribute to high-quality sports content and continue growing in the sports media industry.
           </p>
         </div>
       </div>
